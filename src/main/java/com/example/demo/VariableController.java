@@ -3,10 +3,13 @@ package com.example.demo;
 
 
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.HashMap;
 import java.util.Locale;
@@ -14,6 +17,8 @@ import java.util.Map;
 
 @RestController
 public class VariableController {
+
+    @Autowired BlobService blobService;
 
     @GetMapping(value = "api/imprimir", produces = "application/json")
     public ResponseEntity<String> validateToken() {
@@ -73,4 +78,14 @@ public class VariableController {
         valor.put("data",value);
         return new ResponseEntity<>(valor, HttpStatus.OK);
     }
+
+
+    @PostMapping(value = "api/subirArchivo", produces = "application/json", consumes = "multipart/form-data")
+    public ResponseEntity<Object> createFile(MultipartFile file ){
+        blobService.uploadFile(file);
+
+        return new ResponseEntity<>(Map.of("Mensaje", "Archivo arriba"), HttpStatus.OK);
+
+    }
+
 }

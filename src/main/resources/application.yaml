@@ -1,0 +1,6 @@
+
+azure:
+  blobStorage:
+    token: ${TOKEN}
+    url: ${BLOB_URL}
+    containerName: ${CONTAINER_NAME}

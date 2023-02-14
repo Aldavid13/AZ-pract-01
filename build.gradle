@@ -15,6 +15,10 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation group: 'com.azure', name: 'azure-storage-blob', version: '12.20.3'
+// https://mvnrepository.com/artifact/com.azure/azure-identity
+	implementation group: 'com.azure', name: 'azure-identity', version: '1.8.0'
+
 }
 
 tasks.named('test') {
