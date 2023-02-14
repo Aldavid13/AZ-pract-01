@@ -4,12 +4,15 @@ package com.example.demo;
 import com.azure.storage.blob.BlobClient;
 import com.azure.storage.blob.BlobContainerClient;
 import com.azure.storage.blob.BlobServiceClient;
+import com.azure.storage.blob.models.BlobItem;
 import com.azure.storage.blob.specialized.BlobOutputStream;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 @Service
 public class BlobServiceImpl  implements  BlobService{
@@ -22,19 +25,17 @@ public class BlobServiceImpl  implements  BlobService{
         this.serviceClient = serviceClient;
         this.blobContainerClient = blobContainerClient;
 
-
     }
 
-    public void downloadFile(){
-
-        BlobClient blobClient = blobContainerClient.getBlobClient("myblob");
-
+    public byte[] downloadFilesCSV(String fileName){
+        BlobClient blobClient = blobContainerClient.getBlobClient(fileName);
 
         try (ByteArrayOutputStream outputStream = new ByteArrayOutputStream()) {
-            blobClient.downloadStream(outputStream);
+          return  blobClient.downloadToFile(fileName).getContentMd5();
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return null;
     }
 
 
@@ -47,5 +48,16 @@ public class BlobServiceImpl  implements  BlobService{
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+
+    public List<String> learArchivos(){
+
+        List<String> archivosLista = new ArrayList<>();
+        for (BlobItem blobItem : blobContainerClient.listBlobs()) {
+            archivosLista.add(blobItem.getName());
+        }
+
+        return archivosLista;
     }
 }

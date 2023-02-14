@@ -4,14 +4,17 @@ package com.example.demo;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 
@@ -85,6 +88,26 @@ public class VariableController {
         blobService.uploadFile(file);
 
         return new ResponseEntity<>(Map.of("Mensaje", "Archivo arriba"), HttpStatus.OK);
+
+    }
+
+
+    @GetMapping(value = "api/descargar", produces = "txt/csv")
+    public ResponseEntity<byte[]> download(@RequestParam String fileName ){
+
+        HttpHeaders header = new HttpHeaders();
+        header.set(HttpHeaders.CONTENT_TYPE, "text/csv");
+        header.set(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename="+fileName);
+
+        return new ResponseEntity<>( blobService.downloadFilesCSV(fileName), header, HttpStatus.OK);
+
+    }
+
+
+    @GetMapping(value = "api/leer", produces = "application/json")
+    public ResponseEntity<List<String>> download(){
+
+        return new ResponseEntity<>( blobService.learArchivos(), HttpStatus.OK);
 
     }
 
