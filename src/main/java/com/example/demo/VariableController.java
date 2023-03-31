@@ -3,6 +3,8 @@ package com.example.demo;
 
 
 
+import io.micrometer.azuremonitor.AzureMonitorMeterRegistry;
+import io.micrometer.core.instrument.MeterRegistry;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -23,9 +25,17 @@ public class VariableController {
 
     @Autowired BlobService blobService;
 
+    @Autowired
+    private AzureMonitorMeterRegistry azureMonitorMeterRegistry;
+
+
+    public VariableController(){
+
+    }
+
+
     @GetMapping(value = "api/imprimir", produces = "application/json")
     public ResponseEntity<String> validateToken() {
-
 
         String value = System.getenv("ambiente");
         if (value == null)
@@ -46,7 +56,9 @@ public class VariableController {
 
     @GetMapping(value = "", produces = "application/json")
     public ResponseEntity<Map<String,String>> HealthCheck() {
-
+        azureMonitorMeterRegistry.counter("probando counter");
+        azureMonitorMeterRegistry.gauge("valores", 20);
+        azureMonitorMeterRegistry.timer("timer","timer1");
 
 
 
@@ -56,9 +68,6 @@ public class VariableController {
 
     @GetMapping(value = "/testing-endpoint", produces = "application/json")
     public ResponseEntity<Map<String,String>> endpointTest() {
-
-
-
 
         return new ResponseEntity<>(Map.of("Status", "App is up"), HttpStatus.OK);
     }

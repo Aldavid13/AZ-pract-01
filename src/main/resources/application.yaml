@@ -4,3 +4,27 @@ azure:
     token: ${TOKEN}
     url: ${BLOB_URL}
     containerName: ${CONTAINER_NAME}
+
+
+management:
+  metrics:
+   export:
+    azuremonitor:
+     instrumentation-key: 8f13cfc0-6380-4660-901b-5ec4503a6630
+    azure:
+     application-insights:
+      instrumentationkey: 8f13cfc0-6380-4660-901b-5ec4503a6630
+
+logging:
+  config: classpath:logback-json-layout.xml
+  level:
+    web: INFO
+    org:
+      springframework:
+        web: INFO
+    root: INFO
+
+application:
+  name: probando
+  id: 23
+  profile: nonprod

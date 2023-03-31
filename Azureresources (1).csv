@@ -1,0 +1,338 @@
+NAME	TYPE	RESOURCE GROUP	LOCATION	SUBSCRIPTION	SKU
+administracion-licencias	App Service	apisclientes	East US	BioNuclear Azure CSP	
+administracion-licencias-api	App Service	apisclientes	East US	BioNuclear Azure CSP	
+ambientes	App Service	ambientes_group	East US	BioNuclear Azure CSP	
+api-ars-autorizaciones-labplusonline	App Service	apisclientes	East US	BioNuclear Azure CSP	
+api-integracion-produccion	App Service	apisclientes	East US	BioNuclear Azure CSP	
+api-interface-preproduccion	App Service	labplus-azure	East US	BioNuclear Azure CSP	
+api-interface-produccion	App Service	apisclientes	East US	BioNuclear Azure CSP	
+api-labplusonline-integracion-apps	App Service	apisclientes	East US	BioNuclear Azure CSP	
+api-reportes	App Service	apisclientes	East US	BioNuclear Azure CSP	
+api-reportes-dev	App Service	desarrollo	East US	BioNuclear Azure CSP	
+apipreproduccionintegracion	App Service	desarrollo	East US	BioNuclear Azure CSP	
+cedisa-labplusonline	App Service	labplusonline	East US	BioNuclear Azure CSP	
+cliente-actualizacion	App Service	labplusonline	East US	BioNuclear Azure CSP	
+corominas	App Service	labplusonline	East US	BioNuclear Azure CSP	
+desarollo-portal-paciente-integracion	App Service	portal_paciente_desarollo	East US	BioNuclear Azure CSP	
+desarrollo-portal-labplus	App Service	portal_paciente_desarollo	East US	BioNuclear Azure CSP	
+desarrollo-portal-pacientes	App Service	portal_paciente_desarollo	East US	BioNuclear Azure CSP	
+desarrollo-portal-pacientes-api	App Service	portal_paciente_desarollo	East US	BioNuclear Azure CSP	
+dev-api-integracion	App Service	desarrollo	East US	BioNuclear Azure CSP	
+dev-interface-api	App Service	desarrollo	East US	BioNuclear Azure CSP	
+labplusonline	App Service	desarrollo	East US	BioNuclear Azure CSP	
+labplusonline-admin	App Service	labplus-azure	East US	BioNuclear Azure CSP	
+labplusonline-admin-api	App Service	labplus-azure	East US	BioNuclear Azure CSP	
+LabplusOnlineV2-Laboratorio-Facturacion-no-24	App Service	labplusonline	East US	BioNuclear Azure CSP	
+LabplusOnlineV2-Nefrologia-Facturacion	App Service	labplusonline	East US	BioNuclear Azure CSP	
+LabplusOnlineV2-Produccion	App Service	labplusonline	East US	BioNuclear Azure CSP	
+portal-paciente-corominas	App Service	portal-pacientes	East US	BioNuclear Azure CSP	
+portal-pacientes	App Service	portal-pacientes	East US	BioNuclear Azure CSP	
+portal-pacientes-api	App Service	portal-pacientes	East US	BioNuclear Azure CSP	
+portal-pacientes-integracion	App Service	portal-pacientes	East US	BioNuclear Azure CSP	
+preproduccion-autorizaciones	App Service	desarrollo	East US	BioNuclear Azure CSP	
+preproduccion-integracion-apps-api	App Service	desarrollo	East US	BioNuclear Azure CSP	
+reportes-prueba	App Service	labplus-azure	East US	BioNuclear Azure CSP	
+release (api-ars-autorizaciones-labplusonline/release)	App Service (Slot)	apisclientes	East US	BioNuclear Azure CSP	
+release (api-integracion-produccion/release)	App Service (Slot)	apisclientes	East US	BioNuclear Azure CSP	
+staging (api-interface-preproduccion/staging)	App Service (Slot)	labplus-azure	East US	BioNuclear Azure CSP	
+release (api-interface-produccion/release)	App Service (Slot)	apisclientes	East US	BioNuclear Azure CSP	
+pre-staging (api-reportes-dev/pre-staging)	App Service (Slot)	desarrollo	East US	BioNuclear Azure CSP	
+staging (api-reportes-dev/staging)	App Service (Slot)	desarrollo	East US	BioNuclear Azure CSP	
+prueba-clientes (apipreproduccionintegracion/prueba-clientes)	App Service (Slot)	desarrollo	East US	BioNuclear Azure CSP	
+staging (apipreproduccionintegracion/staging)	App Service (Slot)	desarrollo	East US	BioNuclear Azure CSP	
+testing (apipreproduccionintegracion/testing)	App Service (Slot)	desarrollo	East US	BioNuclear Azure CSP	
+staging (desarollo-portal-paciente-integracion/staging)	App Service (Slot)	portal_paciente_desarollo	East US	BioNuclear Azure CSP	
+staging (desarrollo-portal-pacientes-api/staging)	App Service (Slot)	portal_paciente_desarollo	East US	BioNuclear Azure CSP	
+staging (desarrollo-portal-pacientes/staging)	App Service (Slot)	portal_paciente_desarollo	East US	BioNuclear Azure CSP	
+staging (desarrollo-portal/staging)	App Service (Slot)	portal_paciente_desarollo	East US	BioNuclear Azure CSP	
+staging (dev-api-integracion/staging)	App Service (Slot)	desarrollo	East US	BioNuclear Azure CSP	
+preproduccion (dev-interface-api/preproduccion)	App Service (Slot)	desarrollo	East US	BioNuclear Azure CSP	
+preproduccion (labplusonline-admin-api/preproduccion)	App Service (Slot)	labplus-azure	East US	BioNuclear Azure CSP	
+staging (labplusonline-admin-api/staging)	App Service (Slot)	labplus-azure	East US	BioNuclear Azure CSP	
+staging (labplusonline-admin/staging)	App Service (Slot)	labplus-azure	East US	BioNuclear Azure CSP	
+pre-staging (labplusonline/pre-staging)	App Service (Slot)	desarrollo	East US	BioNuclear Azure CSP	
+preproduccion (labplusonline/preproduccion)	App Service (Slot)	desarrollo	East US	BioNuclear Azure CSP	
+presentacion (labplusonline/presentacion)	App Service (Slot)	desarrollo	East US	BioNuclear Azure CSP	
+telerik (labplusonline/telerik)	App Service (Slot)	desarrollo	East US	BioNuclear Azure CSP	
+version-anterior (labplusonline/version-anterior)	App Service (Slot)	desarrollo	East US	BioNuclear Azure CSP	
+release (labplusonlinev2-laboratorio-facturacion-no-24/release)	App Service (Slot)	labplusonline	East US	BioNuclear Azure CSP	
+release (labplusonlinev2-nefrologia-facturacion/release)	App Service (Slot)	labplusonline	East US	BioNuclear Azure CSP	
+release (labplusonlinev2-produccion/release)	App Service (Slot)	labplusonline	East US	BioNuclear Azure CSP	
+nonprod (portal-pacientes-api/nonprod)	App Service (Slot)	portal-pacientes	East US	BioNuclear Azure CSP	
+nonprod (portal-pacientes/nonprod)	App Service (Slot)	portal-pacientes	East US	BioNuclear Azure CSP	
+staging (preproduccion-autorizaciones/staging)	App Service (Slot)	desarrollo	East US	BioNuclear Azure CSP	
+staging (preproduccion-integracion-apps-api/staging)	App Service (Slot)	desarrollo	East US	BioNuclear Azure CSP	
+testing (preproduccion-integracion-apps-api/testing)	App Service (Slot)	desarrollo	East US	BioNuclear Azure CSP	
+ApisClientes	App Service plan	apisclientes	East US	BioNuclear Azure CSP	LabplusOnline (P1v3: 1)
+ASPDevelopment	App Service plan	labplus-azure	East US	BioNuclear Azure CSP	LabplusOnline (P1v3: 1)
+LabplusOnline	App Service plan	labplusonline	East US	BioNuclear Azure CSP	LabplusOnline (P1v3: 1)
+administracion-licencias	Application Insights	apisclientes	East US	BioNuclear Azure CSP	
+administracion-licencias-api	Application Insights	apisclientes	East US	BioNuclear Azure CSP	
+api-ars-autorizaciones-labplusonline	Application Insights	apisclientes	East US	BioNuclear Azure CSP	
+api-integracion-produccion	Application Insights	apisclientes	East US	BioNuclear Azure CSP	
+api-interface-preproduccion	Application Insights	apisclientes	East US	BioNuclear Azure CSP	
+api-interface-preproduccion	Application Insights	labplus-azure	East US	BioNuclear Azure CSP	
+api-interface-preproduccion202106151053	Application Insights	apisclientes	East US	BioNuclear Azure CSP	
+api-interface-produccion	Application Insights	apisclientes	East US	BioNuclear Azure CSP	
+api-interface-produccion-release	Application Insights	apisclientes	East US	BioNuclear Azure CSP	
+api-labplusonline-integracion-apps	Application Insights	apisclientes	East US	BioNuclear Azure CSP	
+api-reportes	Application Insights	labplus-azure	East US	BioNuclear Azure CSP	
+api-reportes-dev	Application Insights	labplus-azure	East US	BioNuclear Azure CSP	
+apipreproduccionintegracion	Application Insights	labplus-azure	East US	BioNuclear Azure CSP	
+apipreproduccionintegracion202208111705	Application Insights	desarrollo	East US	BioNuclear Azure CSP	
+autorizacionars	Application Insights	labplus-azure	East US	BioNuclear Azure CSP	
+bionuclear	Application Insights	labplus-azure	East US	BioNuclear Azure CSP	
+cliente-actualizacion	Application Insights	labplusonline	East US	BioNuclear Azure CSP	
+desarrollo-portal	Application Insights	portal_paciente_desarollo	East US	BioNuclear Azure CSP	
+desarrollo-portal-fuction	Application Insights	portal_paciente_desarollo	East US	BioNuclear Azure CSP	
+desarrollo-portal-labplus	Application Insights	portal_paciente_desarollo	East US	BioNuclear Azure CSP	
+desarrollo-portal-pacientes	Application Insights	desarrollo-portal_group	East US	BioNuclear Azure CSP	
+desarrollo-portal-pacientes-api	Application Insights	desarrollo	East US	BioNuclear Azure CSP	
+dev-interface-api	Application Insights	desarrollo	East US	BioNuclear Azure CSP	
+dockerImage	Application Insights	labplus-kubernetes	East US	BioNuclear Azure CSP	
+labplusonline	Application Insights	labplus-azure	East US	BioNuclear Azure CSP	
+labplusonline-admin-api	Application Insights	labplus-azure	East US	BioNuclear Azure CSP	
+labplusonline202207211521	Application Insights	labplus-azure	East US	BioNuclear Azure CSP	
+LabplusOnlineV2-Produccion-2	Application Insights	applicationinsights	East US	BioNuclear Azure CSP	
+LabplusOnlineV2_Produccion	Application Insights	applicationinsights	East US	BioNuclear Azure CSP	
+LabplusV2Corominas	Application Insights	labplus-azure	East US	BioNuclear Azure CSP	
+portal-func-app	Application Insights	portal-pacientes	East US	BioNuclear Azure CSP	
+portal-paciente-corominas	Application Insights	portal-pacientes	East US	BioNuclear Azure CSP	
+portal-pacientes	Application Insights	portal-pacientes	East US	BioNuclear Azure CSP	
+portal-pacientes-api	Application Insights	portal-pacientes	East US	BioNuclear Azure CSP	
+portal-pacientes-integracion	Application Insights	portal-pacientes	East US	BioNuclear Azure CSP	
+reportes-prueba	Application Insights	labplus-azure	East US	BioNuclear Azure CSP	
+bionuclear	Automation Account	labplus-azure	East US	BioNuclear Azure CSP	
+crystal	Availability set	labplus-azure	East US	BioNuclear Azure CSP	
+cliente actualizacion-labplusonlinev2_produccion	Availability test	applicationinsights	East US	BioNuclear Azure CSP	
+corominas-labplusonlinev2_produccion	Availability test	applicationinsights	East US	BioNuclear Azure CSP	
+labplus online facturacion no 24 horas-labplusonlinev2_produccion	Availability test	applicationinsights	East US	BioNuclear Azure CSP	
+lapblusonline-labplusonlinev2_produccion	Availability test	applicationinsights	East US	BioNuclear Azure CSP	
+nefrologia facturacion-labplusonlinev2_produccion	Availability test	applicationinsights	East US	BioNuclear Azure CSP	
+labplus	Azure DevOps organization	visualstudioonline-c716cce5265a45a89e27a7e35d913afd	East US 2	BioNuclear Azure CSP	
+LPConnection	Connection	labplus-azure	East US	BioNuclear Azure CSP	
+CRISTAL-REPORT-1_disk1_e01a684c28d544168c108ad70408291d	Disk	labplus-azure	East US	BioNuclear Azure CSP	Premium SSD LRS
+CRISTAL-REPORTS-2_OsDisk_1_dc12f7692a9746edbad2309dd54035a0	Disk	labplus-azure	East US	BioNuclear Azure CSP	Premium SSD LRS
+DISK-IMAGE-IIS	Disk	bionuclear	East US	BioNuclear Azure CSP	Premium SSD LRS
+foto	Disk	labplus-azure	East US	BioNuclear Azure CSP	Premium SSD LRS
+labplus-develop_OsDisk_1_002b82bf99af44bf81a9d5f3f105d3fd	Disk	mlsdev	East US	BioNuclear Azure CSP	Standard SSD LRS
+labplus-staging_OsDisk_1_0bc113b489ad483eadfe5c1edf2dc541	Disk	mlsdev	East US	BioNuclear Azure CSP	Standard SSD LRS
+labplus-uat_OsDisk_1_7be9f3d67cbc41ce839dd382fb4cce41	Disk	mlsdev	East US	BioNuclear Azure CSP	Standard SSD LRS
+LABPLUS_OsDisk_1_f5a19ad4244843b3b3ec645e963c9ae7	Disk	mlsdev-production	East US	BioNuclear Azure CSP	Premium SSD LRS
+LP-IIS-01_OsDisk_1_4f32bbbf5c804341b6c7334f2860c6ff	Disk	labplus-azure	East US	BioNuclear Azure CSP	Standard SSD LRS
+LPDCBSERIE_OsDisk_1_99bc0fb632414cad9ff2e9c50f88b0c6	Disk	labplus-azure	East US	BioNuclear Azure CSP	Standard SSD LRS
+VM-IIS-DISK	Disk	labplus-azure	East US	BioNuclear Azure CSP	Premium SSD LRS
+VMMongo_OsDisk_1_67021159017c4407b45e044c8ae0d60e	Disk	mibioapi_resource	East US	BioNuclear Azure CSP	Standard SSD LRS
+VMMongoDB_disk1_1833947a329e4b6fa5906d219929d735	Disk	mibioapi_resource	East US	BioNuclear Azure CSP	Standard SSD LRS
+zabbixproxy_OsDisk_1_2b908f6b9b7a4b97aa76812ccb594614	Disk	labplus-azure	East US	BioNuclear Azure CSP	Standard SSD LRS
+ZIMBRA_OsDisk_1_de8a7e1562fa43808c7465818eae0db9	Disk	labplus-azure	East US	BioNuclear Azure CSP	Standard SSD LRS
+labplus.do	DNS zone	labplus-azure	Global	BioNuclear Azure CSP	
+labplusonline.com.do	DNS zone	labplus-azure	Global	BioNuclear Azure CSP	
+desarrollo-portal	Function App	portal_paciente_desarollo	East US	BioNuclear Azure CSP	
+portal-func-app	Function App	portal-pacientes	East US	BioNuclear Azure CSP	
+KeyVaultLabplus	Key vault	labplus-azure	East US	BioNuclear Azure CSP	Standard
+portal-lp-vault	Key vault	portal-pacientes	East US	BioNuclear Azure CSP	Standard
+CrystalLoadBalancer	Load balancer	labplus-azure	East US	BioNuclear Azure CSP	Standard
+BNGateway	Local network gateway	labplus-azure	East US	BioNuclear Azure CSP	
+DefaultWorkspace-2069e7fe-46d8-4938-97ea-71f5a1767405-EUS	Log Analytics workspace	defaultresourcegroup-eus	East US	BioNuclear Azure CSP	
+Sql-Managed-Instance-Analytics	Log Analytics workspace	labplus-azure	East US	BioNuclear Azure CSP	
+LabPlusOnlineAzureLogics	Logic app	labplus-azure	East US	BioNuclear Azure CSP	Consumption
+preproduccion	Logic app	preproduccion	East US	BioNuclear Azure CSP	Consumption
+LABPLUS_ADMIN_CLIENTES (sqlmanagedlabplusonline/LABPLUS_ADMIN_CLIENTES)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_GRECIA_ARISTY (sqlmanagedlabplusonline/LABPLUS_GRECIA_ARISTY)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_LUMAC_INVESTMENT (sqlmanagedlabplusonline/LABPLUS_LUMAC_INVESTMENT)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_MARCELINO_VELEZ (sqlmanagedlabplusonline/LABPLUS_MARCELINO_VELEZ)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_MATERNIDAD_SANLORENZO_LOSMINA (sqlmanagedlabplusonline/LABPLUS_MATERNIDAD_SANLORENZO_LOSMINA)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_MATERNO_INFANTIL (sqlmanagedlabplusonline/LABPLUS_MATERNO_INFANTIL)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_MC_DIALYTICS_THERAPY (sqlmanagedlabplusonline/LABPLUS_MC_DIALYTICS_THERAPY)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_PORTAL_PACIENTES (sqlmanagedlabplusonline/LABPLUS_PORTAL_PACIENTES)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_RIA (sqlmanagedlabplusonline/LABPLUS_RIA)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_ANATOMIC_HC (sqlmanagedlabplusonline/LABPLUS_V2_ANATOMIC_HC)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_ATENCION_PRIMARIA_FE_ESPERANZA (sqlmanagedlabplusonline/LABPLUS_V2_ATENCION_PRIMARIA_FE_ESPERANZA)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_BACTERIOCENTRO (sqlmanagedlabplusonline/LABPLUS_V2_BACTERIOCENTRO)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_BANCO_SANGRE_ANA (sqlmanagedlabplusonline/LABPLUS_V2_BANCO_SANGRE_ANA)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_CARDIO_IMAGENES_ESPECIALIZADAS (sqlmanagedlabplusonline/LABPLUS_V2_CARDIO_IMAGENES_ESPECIALIZADAS)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_CEDES (sqlmanagedlabplusonline/LABPLUS_V2_CEDES)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_CEDIAH (sqlmanagedlabplusonline/LABPLUS_V2_CEDIAH)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_CEDISA (sqlmanagedlabplusonline/LABPLUS_V2_CEDISA)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_CENTRAL_ROMANA (sqlmanagedlabplusonline/LABPLUS_V2_CENTRAL_ROMANA)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_CENTRIMED (sqlmanagedlabplusonline/LABPLUS_V2_CENTRIMED)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_CENTRO_LAS_CHARCAS (sqlmanagedlabplusonline/LABPLUS_V2_CENTRO_LAS_CHARCAS)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_CENTRO_MEDICO_UCE (sqlmanagedlabplusonline/LABPLUS_V2_CENTRO_MEDICO_UCE)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_CENTRO_SAMARITAN (sqlmanagedlabplusonline/LABPLUS_V2_CENTRO_SAMARITAN)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_CESMED (sqlmanagedlabplusonline/LABPLUS_V2_CESMED)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_CEVAESDOVI (sqlmanagedlabplusonline/LABPLUS_V2_CEVAESDOVI)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_CLINICA_LA_CONCEPCION (sqlmanagedlabplusonline/LABPLUS_V2_CLINICA_LA_CONCEPCION)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_CLINICA_MF_FRANKLIN_PENA (sqlmanagedlabplusonline/LABPLUS_V2_CLINICA_MF_FRANKLIN_PENA)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_CLINICA_RODRIGUEZ_SANTOS (sqlmanagedlabplusonline/LABPLUS_V2_CLINICA_RODRIGUEZ_SANTOS)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_CLISID (sqlmanagedlabplusonline/LABPLUS_V2_CLISID)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_COROMINAS_PEPIN (sqlmanagedlabplusonline/LABPLUS_V2_COROMINAS_PEPIN)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_COROMINAS_SANTIAGO (sqlmanagedlabplusonline/LABPLUS_V2_COROMINAS_SANTIAGO)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_DOMINICO_CUBANO (sqlmanagedlabplusonline/LABPLUS_V2_DOMINICO_CUBANO)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_DR_BALTAZAR (sqlmanagedlabplusonline/LABPLUS_V2_DR_BALTAZAR)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_DR_MATEO (sqlmanagedlabplusonline/LABPLUS_V2_DR_MATEO)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_ELOHIM (sqlmanagedlabplusonline/LABPLUS_V2_ELOHIM)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_FUNDACOSI_XXI (sqlmanagedlabplusonline/LABPLUS_V2_FUNDACOSI_XXI)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_GINECO_OBS_ORIENTAL (sqlmanagedlabplusonline/LABPLUS_V2_GINECO_OBS_ORIENTAL)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_GM_MAC_CENTER (sqlmanagedlabplusonline/LABPLUS_V2_GM_MAC_CENTER)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_GREGORIO_HERNANDEZ (sqlmanagedlabplusonline/LABPLUS_V2_GREGORIO_HERNANDEZ)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_HOSPITAL_BOCACHICA (sqlmanagedlabplusonline/LABPLUS_V2_HOSPITAL_BOCACHICA)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_HOSPITAL_DOCENTE_DARIO_CONTRERAS (sqlmanagedlabplusonline/LABPLUS_V2_HOSPITAL_DOCENTE_DARIO_CONTRERAS)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_HOSPITAL_ESTRELLA_URENA (sqlmanagedlabplusonline/LABPLUS_V2_HOSPITAL_ESTRELLA_URENA)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_HOSPITAL_MUNICIPAL_FANTINO (sqlmanagedlabplusonline/LABPLUS_V2_HOSPITAL_MUNICIPAL_FANTINO)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_IMEDIX (sqlmanagedlabplusonline/LABPLUS_V2_IMEDIX)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_IMG (sqlmanagedlabplusonline/LABPLUS_V2_IMG)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_INDEN_SANJUAN (sqlmanagedlabplusonline/LABPLUS_V2_INDEN_SANJUAN)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_INMANOR (sqlmanagedlabplusonline/LABPLUS_V2_INMANOR)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_INMONUMED (sqlmanagedlabplusonline/LABPLUS_V2_INMONUMED)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_IRMIE (sqlmanagedlabplusonline/LABPLUS_V2_IRMIE)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_LABORATORIO_CLINICO_VILLAVICENCIO (sqlmanagedlabplusonline/LABPLUS_V2_LABORATORIO_CLINICO_VILLAVICENCIO)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_LABORATORIO_MANUEL_CASTILLO (sqlmanagedlabplusonline/LABPLUS_V2_LABORATORIO_MANUEL_CASTILLO)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_LABORATORIO_MENDOZA_OTANEZ (sqlmanagedlabplusonline/LABPLUS_V2_LABORATORIO_MENDOZA_OTANEZ)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_MEDILAB (sqlmanagedlabplusonline/LABPLUS_V2_MEDILAB)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_MORILLO_KING (sqlmanagedlabplusonline/LABPLUS_V2_MORILLO_KING)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_PRIMED_INTEGRAL (sqlmanagedlabplusonline/LABPLUS_V2_PRIMED_INTEGRAL)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_PRIMED_MILLON (sqlmanagedlabplusonline/LABPLUS_V2_PRIMED_MILLON)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_PUNTACANA_DOCTORS (sqlmanagedlabplusonline/LABPLUS_V2_PUNTACANA_DOCTORS)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_SUPER_KIDDOS (sqlmanagedlabplusonline/LABPLUS_V2_SUPER_KIDDOS)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_V2_VACUCENTRO (sqlmanagedlabplusonline/LABPLUS_V2_VACUCENTRO)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUS_VACUCENTRORD (sqlmanagedlabplusonline/LABPLUS_VACUCENTRORD)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUSONLINE_CEMEP_BONAO (sqlmanagedlabplusonline/LABPLUSONLINE_CEMEP_BONAO)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+LABPLUSONLINE_PADRON_2021 (sqlmanagedlabplusonline/LABPLUSONLINE_PADRON_2021)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+PREPRODUCCION_CEDISA (sqlmanagedlabplusonline/PREPRODUCCION_CEDISA)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+PREPRODUCCION_LABPLUS_ADMIN_CLIENTES (sqlmanagedlabplusonline/PREPRODUCCION_LABPLUS_ADMIN_CLIENTES)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+PREPRODUCCION_LABPLUS_RIA (sqlmanagedlabplusonline/PREPRODUCCION_LABPLUS_RIA)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+PREPRODUCCION_PORTAL_PACIENTE (sqlmanagedlabplusonline/PREPRODUCCION_PORTAL_PACIENTE)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+PREPRODUCION_2020 (sqlmanagedlabplusonline/PREPRODUCION_2020)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+PRESENTACION_ANALISA (sqlmanagedlabplusonline/PRESENTACION_ANALISA)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+PRUEBA_CLISID_INTEGRACION (sqlmanagedlabplusonline/PRUEBA_CLISID_INTEGRACION)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+PRUEBA_INTEGRACION_CLIENTES (sqlmanagedlabplusonline/PRUEBA_INTEGRACION_CLIENTES)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+STAGING_ADMIN_CLIENTES (sqlmanagedlabplusonline/STAGING_ADMIN_CLIENTES)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+STAGING_CEDES1 (sqlmanagedlabplusonline/STAGING_CEDES1)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+STAGING_CEDISA (sqlmanagedlabplusonline/STAGING_CEDISA)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+STAGING_LABPLUSONLINE (sqlmanagedlabplusonline/STAGING_LABPLUSONLINE)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+STAGING_PORTAL_PACIENTES (sqlmanagedlabplusonline/STAGING_PORTAL_PACIENTES)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+STAGING_PORTAL_PACIENTES_LABPLUS (sqlmanagedlabplusonline/STAGING_PORTAL_PACIENTES_LABPLUS)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+STAGING_PRE_LABPLUSONLINE (sqlmanagedlabplusonline/STAGING_PRE_LABPLUSONLINE)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+STAGING_PRIMED_MILLON (sqlmanagedlabplusonline/STAGING_PRIMED_MILLON)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+TELERIK_ANALISA (sqlmanagedlabplusonline/TELERIK_ANALISA)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+TELERIK_COROMINAS (sqlmanagedlabplusonline/TELERIK_COROMINAS)	Managed database	labplus-azure	East US	BioNuclear Azure CSP	
+dns-kubernetes-managed	Managed Identity	labplus-kubernetes	East US	BioNuclear Azure CSP	
+cristal-report-1108	Network Interface	labplus-azure	East US	BioNuclear Azure CSP	
+cristal-reports-2756	Network Interface	labplus-azure	East US	BioNuclear Azure CSP	
+labplus-develop188	Network Interface	mlsdev	East US	BioNuclear Azure CSP	
+labplus-staging83	Network Interface	mlsdev	East US	BioNuclear Azure CSP	
+labplus-uat297	Network Interface	mlsdev	East US	BioNuclear Azure CSP	
+labplus772	Network Interface	mlsdev-production	East US	BioNuclear Azure CSP	
+lp-iis-01364	Network Interface	labplus-azure	East US	BioNuclear Azure CSP	
+lpdcbserie972	Network Interface	labplus-azure	East US	BioNuclear Azure CSP	
+repotes-clientes.nic.219c9962-6e38-4ae1-a006-3df1f0ec742b	Network Interface	labplus-azure	East US	BioNuclear Azure CSP	
+vm-iis-v1285	Network Interface	labplus-azure	East US	BioNuclear Azure CSP	
+vm-image-iis112	Network Interface	bionuclear	East US	BioNuclear Azure CSP	
+vmmongo102	Network Interface	mibioapi_resource	East US	BioNuclear Azure CSP	
+vmmongodb148	Network Interface	mibioapi_resource	East US	BioNuclear Azure CSP	
+zabbixproxy100	Network Interface	labplus-azure	East US	BioNuclear Azure CSP	
+zimbra698	Network Interface	labplus-azure	East US	BioNuclear Azure CSP	
+CRISTAL-REPORT-1-nsg	Network security group	labplus-azure	East US	BioNuclear Azure CSP	
+CRISTAL-REPORTS-2-nsg	Network security group	labplus-azure	East US	BioNuclear Azure CSP	
+labplus-develop-nsg	Network security group	mlsdev	East US	BioNuclear Azure CSP	
+LABPLUS-nsg	Network security group	mlsdev-production	East US	BioNuclear Azure CSP	
+labplus-staging-nsg	Network security group	mlsdev	East US	BioNuclear Azure CSP	
+labplus-uat-nsg	Network security group	mlsdev	East US	BioNuclear Azure CSP	
+LP-IIS-01-nsg	Network security group	labplus-azure	East US	BioNuclear Azure CSP	
+LPDCBSERIE-nsg	Network security group	labplus-azure	East US	BioNuclear Azure CSP	
+nsg-labplusonline	Network security group	labplus-azure	East US	BioNuclear Azure CSP	
+nsg-sqlmanagedlabplusonline	Network security group	labplus-azure	East US	BioNuclear Azure CSP	
+VM-IIS-V1-nsg	Network security group	labplus-azure	East US	BioNuclear Azure CSP	
+VMMongo-nsg	Network security group	mibioapi_resource	East US	BioNuclear Azure CSP	
+VMMongoDB-nsg	Network security group	mibioapi_resource	East US	BioNuclear Azure CSP	
+zabbixproxy-nsg	Network security group	labplus-azure	East US	BioNuclear Azure CSP	
+ZIMBRA-nsg	Network security group	labplus-azure	East US	BioNuclear Azure CSP	
+NetworkWatcher_eastus	Network Watcher	networkwatcherrg	East US	BioNuclear Azure CSP	
+CRISTAL-REPORT-1-nsg-labplus-azure-flowlog (NetworkWatcher_eastus/CRISTAL-REPORT-1-nsg-labplus-azure-flowlog)	NSG Flow log	networkwatcherrg	East US	BioNuclear Azure CSP	
+Microsoft.NetworkLabPLus-AzureLP-IIS-01-nsg (NetworkWatcher_eastus/Microsoft.NetworkLabPLus-AzureLP-IIS-01-nsg)	NSG Flow log	networkwatcherrg	East US	BioNuclear Azure CSP	
+repotes-clientes	Private endpoint	labplus-azure	East US	BioNuclear Azure CSP	
+CRISTAL-REPORT-1-ip	Public IP address	labplus-azure	East US	BioNuclear Azure CSP	Standard
+CRISTAL-REPORT-2-ip	Public IP address	labplus-azure	East US	BioNuclear Azure CSP	Standard
+labplus-develop-ip	Public IP address	mlsdev	East US	BioNuclear Azure CSP	Basic
+LABPLUS-ip	Public IP address	mlsdev-production	East US	BioNuclear Azure CSP	Basic
+labplus-staging-ip	Public IP address	mlsdev	East US	BioNuclear Azure CSP	Basic
+labplus-uat-ip	Public IP address	mlsdev	East US	BioNuclear Azure CSP	Basic
+LoadBalancerCrystalStandard	Public IP address	labplus-azure	East US	BioNuclear Azure CSP	Standard
+LP-Azure-GatewayIP	Public IP address	labplus-azure	East US	BioNuclear Azure CSP	Basic
+LP-IIS-01-ip	Public IP address	labplus-azure	East US	BioNuclear Azure CSP	Basic
+VM-IIS-V1-ip	Public IP address	labplus-azure	East US	BioNuclear Azure CSP	Basic
+ZIMBRA-publicip	Public IP address	labplus-azure	East US	BioNuclear Azure CSP	Standard
+LPVault	Recovery Services vault	labplus-azure	East US	BioNuclear Azure CSP	
+VaultToDelete	Recovery Services vault	labplus-azure	East US	BioNuclear Azure CSP	
+AzureBackup_CRISTAL-REPORT-1_105554269368914	Restore Point Collection	azurebackuprg_eastus_1	East US	BioNuclear Azure CSP	
+AzureBackup_crystalreports_105553357470386	Restore Point Collection	azurebackuprg_eastus_1	East US	BioNuclear Azure CSP	
+AzureBackup_LABPLUS_105554462713797	Restore Point Collection	azurebackuprg_eastus_1	East US	BioNuclear Azure CSP	
+AzureBackup_LP-DC-01	Restore Point Collection	labplus-azure	East US	BioNuclear Azure CSP	
+AzureBackup_LP-DC-02	Restore Point Collection	labplus-azure	East US	BioNuclear Azure CSP	
+AzureBackup_LP-IIS-01	Restore Point Collection	labplus-azure	East US	BioNuclear Azure CSP	
+AzureBackup_LP-IIS-01_105554204851164	Restore Point Collection	azurebackuprg_eastus_1	East US	BioNuclear Azure CSP	
+AzureBackup_LP-SQL-01	Restore Point Collection	labplus-azure	East US	BioNuclear Azure CSP	
+AzureBackup_LP-SQL-02	Restore Point Collection	labplus-azure	East US	BioNuclear Azure CSP	
+AzureBackup_LPDCBSERIE_105554548456320	Restore Point Collection	azurebackuprg_eastus_1	East US	BioNuclear Azure CSP	
+AzureBackup_ZIMBRA_105554315618100	Restore Point Collection	azurebackuprg_eastus_1	East US	BioNuclear Azure CSP	
+rt-bionuclear	Route table	labplus-azure	East US	BioNuclear Azure CSP	
+rt-sqlmanagedlabplusonline	Route table	labplus-azure	East US	BioNuclear Azure CSP	
+AzureAutomationTutorialWithIdentity (bionuclear/AzureAutomationTutorialWithIdentity)	Runbook	labplus-azure	East US	BioNuclear Azure CSP	
+AzureAutomationTutorialWithIdentityGraphical (bionuclear/AzureAutomationTutorialWithIdentityGraphical)	Runbook	labplus-azure	East US	BioNuclear Azure CSP	
+lapblus-sendgrid	SaaS	labplus-azure	Global	BioNuclear Azure CSP	Silver
+RabbitMQTesting	SaaS	labplus-azure	Global	BioNuclear Azure CSP	Sassy Squirrel x 1
+labplus	Service Bus Namespace	labplus-azure	East US	BioNuclear Azure CSP	Basic
+6e5af8f1-1aec-46f2-a6bc-3f1cc10ee40b (Personalizado)	Shared dashboard	dashboards	East US	BioNuclear Azure CSP	
+9d9baa3d-5f19-4ce6-966d-47af5f574bb9-dashboard (Site20Laboratorio Dashboard)	Shared dashboard	applicationinsights	East US	BioNuclear Azure CSP	
+SNAPSHOT-IIS	Snapshot	bionuclear	East US	BioNuclear Azure CSP	
+AzureSQLAnalytics(Sql-Managed-Instance-Analytics)	Solution	labplus-azure	East US	BioNuclear Azure CSP	
+ContainerInsights(defaultworkspace-2069e7fe-46d8-4938-97ea-71f5a1767405-eus)	Solution	defaultresourcegroup-eus	East US	BioNuclear Azure CSP	
+Security(DefaultWorkspace-2069e7fe-46d8-4938-97ea-71f5a1767405-EUS)	Solution	defaultresourcegroup-eus	East US	BioNuclear Azure CSP	
+SecurityCenterFree(DefaultWorkspace-2069e7fe-46d8-4938-97ea-71f5a1767405-EUS)	Solution	defaultresourcegroup-eus	East US	BioNuclear Azure CSP	
+SecurityCenterFree(Sql-Managed-Instance-Analytics)	Solution	labplus-azure	East US	BioNuclear Azure CSP	
+ServiceMap(sql-managed-instance-analytics)	Solution	labplus-azure	East US	BioNuclear Azure CSP	
+VMInsights(DefaultWorkspace-2069e7fe-46d8-4938-97ea-71f5a1767405-EUS)	Solution	defaultresourcegroup-eus	East US	BioNuclear Azure CSP	
+sqlmanagedlabplusonline	SQL managed instance	labplus-azure	East US	BioNuclear Azure CSP	General Purpose Standard-series (Gen 5) (512 GB, 8 vCores, Geo-redundant backup storage)
+zabbixproxy_key	SSH key	labplus-azure	East US	BioNuclear Azure CSP	
+backuplbonline	Storage account	labplus-azure	East US	BioNuclear Azure CSP	StorageV2
+cursolabplus	Storage account	apisclientes	East US	BioNuclear Azure CSP	StorageV2
+k8sfileslabplus	Storage account	labplus-kubernetes	East US	BioNuclear Azure CSP	StorageV2
+labplus	Storage account	mlsdev	East US	BioNuclear Azure CSP	StorageV2
+labplusazurediag657	Storage account	labplus-azure	East US	BioNuclear Azure CSP	StorageV2
+labplusazureperfdiag359	Storage account	labplus-azure	East US	BioNuclear Azure CSP	StorageV2
+labplusdataclientes	Storage account	apisclientes	East US	BioNuclear Azure CSP	StorageV2
+labplusonlinedata	Storage account	labplus-azure	East US	BioNuclear Azure CSP	StorageV2
+labplusproduction	Storage account	mlsdev-production	East US	BioNuclear Azure CSP	StorageV2
+labplusreportes	Storage account	labplus-kubernetes	East US	BioNuclear Azure CSP	StorageV2
+mlsdevdiag	Storage account	mlsdev	East US	BioNuclear Azure CSP	StorageV2
+mlsdevproductiondiag	Storage account	mlsdev-production	East US	BioNuclear Azure CSP	StorageV2
+portalfuncstorage	Storage account	portal-pacientes	East US	BioNuclear Azure CSP	StorageV2
+portalpacientedesar83df	Storage account	portal_paciente_desarollo	East US	BioNuclear Azure CSP	StorageV2
+portalpacientedesaraa5f	Storage account	portal_paciente_desarollo	East US	BioNuclear Azure CSP	StorageV2
+prodconfigslabplus	Storage account	labplus-azure	East US	BioNuclear Azure CSP	StorageV2
+reportesclientes	Storage account	labplus-azure	East US	BioNuclear Azure CSP	StorageV2
+storagebionuclear	Storage account	bionuclear	East US	BioNuclear Azure CSP	StorageV2
+teleriklabplus	Storage account	telerik	East US	BioNuclear Azure CSP	StorageV2
+Testing	Stream Analytics job	labplus-azure	East US	BioNuclear Azure CSP	Shared
+VirtualClusterd9df7157-ab82-4322-9c1b-35c02cc8ac0c	Virtual cluster	labplus-azure	East US	BioNuclear Azure CSP	
+CRISTAL-REPORT-1	Virtual machine	labplus-azure	East US	BioNuclear Azure CSP	Standard_E8s_v4
+CRISTAL-REPORTS-2	Virtual machine	labplus-azure	East US	BioNuclear Azure CSP	Standard_E2s_v4
+LABPLUS	Virtual machine	mlsdev-production	East US	BioNuclear Azure CSP	Standard_B2s
+labplus-develop	Virtual machine	mlsdev	East US	BioNuclear Azure CSP	Standard_B2s
+labplus-staging	Virtual machine	mlsdev	East US	BioNuclear Azure CSP	Standard_B2s
+labplus-uat	Virtual machine	mlsdev	East US	BioNuclear Azure CSP	Standard_B2s
+LP-IIS-01	Virtual machine	labplus-azure	East US	BioNuclear Azure CSP	Standard_E2ds_v4
+LPDCBSERIE	Virtual machine	labplus-azure	East US	BioNuclear Azure CSP	Standard_B2s
+VM-IMAGE-IIS	Virtual machine	bionuclear	East US	BioNuclear Azure CSP	Standard_E2s_v4
+VMMongo	Virtual machine	mibioapi_resource	East US	BioNuclear Azure CSP	Standard_B2s
+zabbixproxy	Virtual machine	labplus-azure	East US	BioNuclear Azure CSP	Standard_B1ms
+ZIMBRA	Virtual machine	labplus-azure	East US	BioNuclear Azure CSP	Standard_B2ms
+LabPlus	Virtual network	mlsdev	East US	BioNuclear Azure CSP	
+LabPLus-Azure-vnet	Virtual network	labplus-azure	East US	BioNuclear Azure CSP	
+labplus-kubernetes-vnet	Virtual network	labplus-kubernetes	East US	BioNuclear Azure CSP	
+LabPlus_Mibio_vnet	Virtual network	mibioapi_resource	East US	BioNuclear Azure CSP	
+MLSDev-Production-vnet	Virtual network	mlsdev-production	East US	BioNuclear Azure CSP	
+Vnet-dev	Virtual network	labplus-azure	East US	BioNuclear Azure CSP	
+VnetSQL	Virtual network	labplus-azure	East US	BioNuclear Azure CSP	
+LPRouteVpnGateway	Virtual network gateway	labplus-azure	East US	BioNuclear Azure CSP	VpnGw1
