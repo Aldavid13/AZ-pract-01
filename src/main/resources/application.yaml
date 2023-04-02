@@ -28,3 +28,12 @@ application:
   name: probando
   id: 23
   profile: nonprod
+
+
+  logging:
+    level:
+      org:
+        springframework:
+          web:
+            filter:
+              CommonsRequestLoggingFilter=DEBUG:

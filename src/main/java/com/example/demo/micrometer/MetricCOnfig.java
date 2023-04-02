@@ -18,7 +18,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 
-@Configuration   
+//@Configuration
 public class MetricCOnfig implements WebTelemetryModule, TelemetryModule {
     @Override
     public void initialize(TelemetryConfiguration telemetryConfiguration) {

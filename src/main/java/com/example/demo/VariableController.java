@@ -5,6 +5,7 @@ package com.example.demo;
 
 import io.micrometer.azuremonitor.AzureMonitorMeterRegistry;
 import io.micrometer.core.instrument.MeterRegistry;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -21,6 +22,7 @@ import java.util.Locale;
 import java.util.Map;
 
 @RestController
+@Slf4j
 public class VariableController {
 
     @Autowired BlobService blobService;
@@ -56,9 +58,9 @@ public class VariableController {
 
     @GetMapping(value = "", produces = "application/json")
     public ResponseEntity<Map<String,String>> HealthCheck() {
-        azureMonitorMeterRegistry.counter("probando counter");
-        azureMonitorMeterRegistry.gauge("valores", 20);
-        azureMonitorMeterRegistry.timer("timer","timer1");
+//        azureMonitorMeterRegistry.counter("probando counter");
+//        azureMonitorMeterRegistry.gauge("valores", 20);
+//        azureMonitorMeterRegistry.timer("timer","timer1");
 
 
 
@@ -87,6 +89,7 @@ public class VariableController {
         else if(!value.toLowerCase().contains(System.getenv("nombre").toLowerCase())){
             value=" No estas reemplazando bien tu nombre en el archivo: \n \n  ESTAS IMPRIMIENDO: \n \n"+ value;
         }
+        System.out.println("data impresa %s".formatted(value));
         valor.put("data",value);
         return new ResponseEntity<>(valor, HttpStatus.OK);
     }
@@ -115,7 +118,7 @@ public class VariableController {
 
     @GetMapping(value = "api/leer", produces = "application/json")
     public ResponseEntity<List<String>> download(){
-
+        System.out.println("Leyendo archivo");
         return new ResponseEntity<>( blobService.learArchivos(), HttpStatus.OK);
 
     }
