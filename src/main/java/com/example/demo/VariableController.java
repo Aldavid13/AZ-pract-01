@@ -91,6 +91,7 @@ public class VariableController {
         }
         System.out.println("data impresa %s".formatted(value));
         valor.put("data",value);
+        log.info("data: %s".formatted(value));
         return new ResponseEntity<>(valor, HttpStatus.OK);
     }
 
