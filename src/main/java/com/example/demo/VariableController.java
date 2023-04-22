@@ -64,14 +64,14 @@ public class VariableController {
 
 
 
-        return new ResponseEntity<>(Map.of("Status", "App is up"), HttpStatus.OK);
+        return new ResponseEntity<>(Map.of("Status", "App is up raiz"), HttpStatus.OK);
     }
 
 
     @GetMapping(value = "/testing-endpoint", produces = "application/json")
     public ResponseEntity<Map<String,String>> endpointTest() {
 
-        return new ResponseEntity<>(Map.of("Status", "App is up"), HttpStatus.OK);
+        return new ResponseEntity<>(Map.of("Status", "App is up testing"), HttpStatus.OK);
     }
 
 
