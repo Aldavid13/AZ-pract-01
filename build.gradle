@@ -13,8 +13,9 @@ repositories {
 }
 
 dependencies {
+	implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.36'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'org.projectlombok:lombok:1.18.26'
+	compileOnly 'org.projectlombok:lombok:1.18.26'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation group: 'com.azure', name: 'azure-storage-blob', version: '12.20.3'
 // https://mvnrepository.com/artifact/com.azure/azure-identity
@@ -26,7 +27,6 @@ dependencies {
     implementation group: 'com.microsoft.azure', name: 'azure-spring-boot-metrics-starter', version: '2.3.5'
 
 	implementation 'net.logstash.logback:logstash-logback-encoder:7.3'
-
 
 }
 

@@ -6,6 +6,8 @@ package com.example.demo;
 import io.micrometer.azuremonitor.AzureMonitorMeterRegistry;
 import io.micrometer.core.instrument.MeterRegistry;
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -22,7 +24,6 @@ import java.util.Locale;
 import java.util.Map;
 
 @RestController
-@Slf4j
 public class VariableController {
 
     @Autowired BlobService blobService;
@@ -30,7 +31,7 @@ public class VariableController {
     @Autowired
     private AzureMonitorMeterRegistry azureMonitorMeterRegistry;
 
-
+   Logger log = LoggerFactory.getLogger(VariableController.class);
     public VariableController(){
 
     }
@@ -63,6 +64,7 @@ public class VariableController {
 //        azureMonitorMeterRegistry.timer("timer","timer1");
 
 
+        log.info("App is up raiz");
 
         return new ResponseEntity<>(Map.of("Status", "App is up raiz"), HttpStatus.OK);
     }
@@ -70,6 +72,7 @@ public class VariableController {
 
     @GetMapping(value = "/testing-endpoint", produces = "application/json")
     public ResponseEntity<Map<String,String>> endpointTest() {
+        log.info("App is up testing");
 
         return new ResponseEntity<>(Map.of("Status", "App is up testing"), HttpStatus.OK);
     }
@@ -89,9 +92,8 @@ public class VariableController {
         else if(!value.toLowerCase().contains(System.getenv("nombre").toLowerCase())){
             value=" No estas reemplazando bien tu nombre en el archivo: \n \n  ESTAS IMPRIMIENDO: \n \n"+ value;
         }
-        System.out.println("data impresa %s".formatted(value));
         valor.put("data",value);
-        log.info("data: %s".formatted(value));
+        log.info("data: {}", value);
         return new ResponseEntity<>(valor, HttpStatus.OK);
     }
 
