@@ -42,7 +42,7 @@ public class VariableController {
 
 
 
-        return new ResponseEntity<>(Map.of("Status", "App is up"), HttpStatus.OK);
+        return new ResponseEntity<>(Map.of("Status", "App is up raiz"), HttpStatus.OK);
     }
 
 
@@ -52,7 +52,7 @@ public class VariableController {
 
 
 
-        return new ResponseEntity<>(Map.of("Status", "App is up"), HttpStatus.OK);
+        return new ResponseEntity<>(Map.of("Status", "App is up testing endpoing"), HttpStatus.OK);
     }
 
 
